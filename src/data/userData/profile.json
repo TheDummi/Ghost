@@ -1,0 +1,28 @@
+{
+  "482513687417061376": {
+    "name": "r20dummi05",
+    "synced": "yes",
+    "grimoire": 4880,
+    "favourites": {
+      "character": "Warlock",
+      "raid": "Vault of glass",
+      "gamemode": "PvE",
+      "weapon": "The jade rabbit",
+      "strike": "Devil's lair",
+      "subclass": "Voidwalker"
+    }
+  },
+  "723923877847105546": {
+    "name": "iQuantorQ",
+    "synced": "yes",
+    "grimoire": 4775,
+    "favourites": {
+      "character": "Hunter",
+      "raid": "Vault of glass",
+      "gamemode": "PvP",
+      "weapon": "Hand cannon",
+      "strike": "Dust palace",
+      "subclass": "Bladedancer"
+    }
+  }
+}

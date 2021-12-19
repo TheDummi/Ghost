@@ -1,0 +1,25 @@
+{
+  "482513687417061376": {
+    "firstCharacter": {
+      "type": "warlock",
+      "level": 40,
+      "light": 335,
+      "raid": "yes",
+      "exotics": 19
+    },
+    "secondCharacter": {
+      "type": "hunter",
+      "level": 40,
+      "light": 335,
+      "raid": "yes",
+      "exotics": 19
+    },
+    "thirdCharacter": {
+      "type": "titan",
+      "level": 40,
+      "light": 335,
+      "raid": "yes",
+      "exotics": 19
+    }
+  }
+}
