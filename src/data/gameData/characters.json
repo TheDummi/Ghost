@@ -1,0 +1,1182 @@
+[
+  {
+    "character": "Warlock",
+    "description": "The Warlock is a Guardian class in Destiny that specializes in combining magic powers granted by The Traveler with modern weapons.\n\nWarlocks have long studied The Traveler, which gives rise to their ability to harness some of its powers. As the Warlocks advance through levels, their arcane powers grow stronger.\n\nIn appearance, Warlocks can be distinguished by their rounded helmets and long vestments. As with the other player classes, in addition to head, chest armor, gauntlets, and leg armor, they have a special fifth armor slot that is unique to their class and further helps to distinguish them from their brethren in arms: a bond (armband) worn on the upper-left arm.",
+    "subclasses": {
+      "void": {
+        "name": "Voidwalker",
+        "description": "Voidwalker focuses on the manipulation and use of Void energy to obliterate enemies. It has been described by Bungie as a glass cannon, offering a strong offense but taking away from defense. This is also the starter subclass for warlock.",
+        "icon": "https://static.wikia.nocookie.net/destinypedia/images/5/59/Voidwalker_subclass_icon.jpg/revision/latest?cb=20170314202050",
+        "element": "Void",
+        "grenade": {
+          "first": {
+            "name": "Vortex Grenade",
+            "description": "A grenade that creates a vortex which continually damages enemies inside the sphere."
+          },
+          "second": {
+            "name": "Scatter Grenade",
+            "description": "A grenade that splits into many submunitions and covers a large area with explosions."
+          },
+          "third": {
+            "name": "Axion Bolt",
+            "description": "A bolt of Void light which forks into smaller bolts on impact which seek toward enemies."
+          }
+        },
+        "movement": {
+          "name": "Glide",
+          "description": "Double jump in mid-air to activate Glide.",
+          "modifiers": {
+            "first": {
+              "name": "Focused Control",
+              "description": "Upgrades Glide for better directional control while in mid-air."
+            },
+            "second": {
+              "name": "Focused Burst",
+              "description": "Upgrades Glide to provide an initial burst of speed."
+            },
+            "third": {
+              "name": "Blink",
+              "description": "A short distance teleport that replaces Glide."
+            }
+          }
+        },
+        "super": {
+          "name": "Nova Bomb",
+          "description": "Hurl an explosive bolt of Void light at the enemy, disintegrating those caught within its blast.",
+          "modifiers": {
+            "first": {
+              "name": "Vortex",
+              "description": "Nova Bomb creates a vortex which continually damages enemies trapped inside. Lasts 3.5 seconds."
+            },
+            "second": {
+              "name": "Shatter",
+              "description": "Nova Bomb splits into three projectiles."
+            },
+            "third": {
+              "name": "Lance",
+              "description": "Nova Bomb travels farther and faster, and does more damage."
+            }
+          }
+        },
+        "melee": {
+          "name": "Energy Drain",
+          "description": "A powerful melee attack which drains energy from enemies and uses it to reduce the cooldown of your grenade.",
+          "modifiers": {
+            "first": {
+              "name": "Surge",
+              "description": "Damaging an enemy with Energy Drain increases your weapon and movement speed."
+            },
+            "second": {
+              "name": "Life Steal",
+              "description": "Damaging an enemy with Energy Drain immediately restores a significant portion of your health."
+            },
+            "third": {
+              "name": "Soul Rip",
+              "description": "Damaging an enemy with Energy Drain reduces the cooldown of Nova Bomb."
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "Arcane Wisdom",
+            "description": "Training focused on battle recovery and speed."
+          },
+          "second": {
+            "name": "Arcane Spirit",
+            "description": "Training focused on battle recovery and toughness."
+          },
+          "third": {
+            "name": "Arcane Force",
+            "description": "Training focused on toughness and speed."
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "Annihilate",
+            "description": "Increases the size of the explosion created by Nova Bomb and Vortex grenade."
+          },
+          "second": {
+            "name": "Angry Magic",
+            "description": "Nova Bomb tracks enemies."
+          },
+          "third": {
+            "name": "The Hunger",
+            "description": "Increases the duration of the Energy Drain effect."
+          }
+        },
+        "attribute": {
+          "first": {
+            "name": "Ancestral Order",
+            "description": "Training focused on all attributes."
+          },
+          "second": {
+            "name": "Chaos Order",
+            "description": "Training focused on raw speed."
+          },
+          "third": {
+            "name": "Divine Order",
+            "description": "Training focused on toughness at all costs."
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "Vortex Mastery",
+            "description": "Increases the range of Axion Bolt seekers and the duration of the Vortex effect of Nova Bomb and Vortex Grenade."
+          },
+          "second": {
+            "name": "Bloom",
+            "description": "Enemies killed with any of your abilities explode."
+          },
+          "third": {
+            "name": "Embrace the Void",
+            "description": "Killing enemies with Nova Bomb or any grenade triggers the Energy Drain effect."
+          }
+        }
+      },
+      "solar": {
+        "name": "Sunsinger",
+        "description": "Sunsinger's super ability, Radiance, allows the player to deal more area damage by reducing the cooldown of grenades while active. Radiance's modifiers can allow a player to revive themselves after death, reduce incoming damage or reduce the cooldowns of a fireteam while active. Sunsinger subclass is unlocked when any of a player's characters reach level 15.",
+        "icon": "https://static.wikia.nocookie.net/destinypedia/images/0/03/Sunsinger_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202012",
+        "element": "Solar",
+        "grenade": {
+          "first": {
+            "name": "Solar Grenade",
+            "description": "A grenade that creates a flare of Solar Light which continually damages enemies trapped inside."
+          },
+          "second": {
+            "name": "Firebolt Grenade",
+            "description": "A grenade that unleashes bolts of Solar Light at nearby enemies."
+          },
+          "third": {
+            "name": "Fusion Grenade",
+            "description": "A grenade that causes bonus damage when attached to its target."
+          }
+        },
+        "movement": {
+          "name": "Glide",
+          "description": "Double jump in mid-air to activate Glide.",
+          "modifiers": {
+            "first": {
+              "name": "Focused Control",
+              "description": "Upgrades Glide for better directional control while in mid-air."
+            },
+            "second": {
+              "name": "Focused Burst",
+              "description": "Upgrades Glide to provide an initial burst of speed."
+            },
+            "third": {
+              "name": "Balanced Glide",
+              "description": "Upgrades Glide to provide bonuses to both speed and control."
+            }
+          }
+        },
+        "super": {
+          "name": "Radiance",
+          "description": "Fill yourself with Solar light, dramatically increasing the effectiveness of all your abilities.",
+          "modifiers": {
+            "first": {
+              "name": "Song of Flame",
+              "description": "While active, Radiance reduces all cooldowns for nearby allies."
+            },
+            "second": {
+              "name": "Radiant Skin",
+              "description": "While active, Radiance reduces incoming damage."
+            },
+            "third": {
+              "name": "Fireborn",
+              "description": "Radiance can now be activated from beyond the grave. Doing so returns you to life."
+            }
+          }
+        },
+        "melee": {
+          "name": "Scorch",
+          "description": "A powerful melee attack that ignites enemies, causing damage over time.",
+          "modifiers": {
+            "first": {
+              "name": "Flame Shield",
+              "description": "Damaging enemies with Scorch reduces incoming damage for a short time."
+            },
+            "second": {
+              "name": "Solar Wind",
+              "description": "Reduces the cooldown of Scorch. Hitting an enemy with Scorch knocks them back."
+            },
+            "third": {
+              "name": "Brimstone",
+              "description": "Reduces the cooldown of Scorch. Killing enemies with Scorch causes them to explode."
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "Arcane Wisdom",
+            "description": "Training focused on battle recovery and speed."
+          },
+          "second": {
+            "name": "Arcane Spirit",
+            "description": "Training focused on battle recovery and toughness."
+          },
+          "third": {
+            "name": "Arcane Force",
+            "description": "Training focused on toughness and speed."
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "Radiant Will",
+            "description": "Increases the duration of Radiance."
+          },
+          "second": {
+            "name": "Viking Funeral",
+            "description": "Enemies you ignite burn take more damage from all sources. Stacks up to 3 times."
+          },
+          "third": {
+            "name": "Sunburst",
+            "description": "Killing an enemy with Scorch generates an Orb of Light."
+          }
+        },
+        "attribute": {
+          "first": {
+            "name": "Ancestral Order",
+            "description": "Training focused on all attributes."
+          },
+          "second": {
+            "name": "Chaos Order",
+            "description": "Training focused on raw speed."
+          },
+          "third": {
+            "name": "Divine Order",
+            "description": "Training focused on toughness at all costs."
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "Touch of Flame",
+            "description": "All grenades ignite enemies, causing damage over time."
+          },
+          "second": {
+            "name": "Angel of Light",
+            "description": "Aiming your weapon while in the air will hold you in place for a short time."
+          },
+          "third": {
+            "name": "Gift of the Sun",
+            "description": "Gain an additional grenade."
+          }
+        }
+      },
+      "arc": {
+        "name": "Stormcaller",
+        "description": "Stormcallers directly manipulate Arc energy, focusing body and mind to channel and chain the lightning. Their enemies are given fair warning— flee from battle, or face the storm. This subclass can be obtained when doing the level 26 mission `Phobos`.",
+        "icon": "https://static.wikia.nocookie.net/destinypedia/images/7/7e/Stormcaller_subclass_icon.jpg/revision/latest/scale-to-width-down/138?cb=20170314202128",
+        "element": "Arc",
+        "grenade": {
+          "first": {
+            "name": "Pulse Grenade",
+            "description": "A grenade that periodically damages enemies inside its explosive radius."
+          },
+          "second": {
+            "name": "Storm Grenade",
+            "description": "This grenade calls down a localized lightning storm."
+          },
+          "third": {
+            "name": "Arcbolt",
+            "description": "A grenade that chains bolts of lightning to nearby enemies."
+          }
+        },
+        "movement": {
+          "name": "Glide",
+          "description": "Double jump in mid-air to activate Glide.",
+          "modifiers": {
+            "first": {
+              "name": "Focused Control",
+              "description": "Upgrades Glide for better directional control while in mid-air."
+            },
+            "second": {
+              "name": "Focused Burst",
+              "description": "Upgrades Glide to provide an initial burst of speed."
+            },
+            "third": {
+              "name": "Balanced Glide",
+              "description": "Upgrades Glide to provide bonuses to both speed and control."
+            }
+          }
+        },
+        "super": {
+          "name": "Stormtrance",
+          "description": "Fire Arc lightning from your hands.",
+          "modifiers": {
+            "first": {
+              "name": "Landfall",
+              "description": "On casting Stormtrance, fire a bolt of lightning into the ground, creating a devastating shockwave under you."
+            },
+            "second": {
+              "name": "Superconductor",
+              "description": "Doubles your Stormtrance lightning's chaining capabilities."
+            },
+            "third": {
+              "name": "Ionic Blink",
+              "description": "Press L3 to teleport during Stormtrance."
+            }
+          }
+        },
+        "melee": {
+          "name": "Thunderstrike",
+          "description": "Deliver an electrocuting melee strike to close-range targets.",
+          "modifiers": {
+            "first": {
+              "name": "Chain Lighting",
+              "description": "Your Thunderstrike chains from the struck target to another nearby enemy."
+            },
+            "second": {
+              "name": "Amplitude",
+              "description": "Your Thunderstrike has a greater range."
+            },
+            "third": {
+              "name": "Rising Storm",
+              "description": "Hits with Thunderstrike charge your Super Ability and Melee energy."
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "Arcane Wisdom",
+            "description": "Training focused on battle recovery and speed."
+          },
+          "second": {
+            "name": "Arcane Spirit",
+            "description": "Training focused on battle recovery and toughness."
+          },
+          "third": {
+            "name": "Arcane Force",
+            "description": "Training focused on toughness and speed."
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "Pulse Wave",
+            "description": "When critically wounded, trigger a Pulsewave that boosts speed for you and your allies."
+          },
+          "second": {
+            "name": "Feedback",
+            "description": "Incoming melee attacks fully recharge and intensify your Thunderstrike."
+          },
+          "third": {
+            "name": "Transcendence",
+            "description": "When cast with full grenade and melee energy, Stormtrance restores your health to full and drains slower."
+          }
+        },
+        "attribute": {
+          "first": {
+            "name": "Ancestral Order",
+            "description": "Training focused on all attributes."
+          },
+          "second": {
+            "name": "Chaos Order",
+            "description": "Training focused on raw speed."
+          },
+          "third": {
+            "name": "Divine Order",
+            "description": "Training focused on toughness at all costs."
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "Electrostatic Mind",
+            "description": "Stormtrance charges faster when allies are near. When Stormtrance is active, nearby enemies take damage."
+          },
+          "second": {
+            "name": "Arc Web",
+            "description": "Enemies damaged by your grenades chain deadly lightning to other nearby enemies."
+          },
+          "third": {
+            "name": "Perpetuai Charge",
+            "description": "Getting a grenade kill recharges your melee. Getting a melee kill recharges your grenade."
+          }
+        }
+      }
+    }
+  },
+  {
+    "character": "Hunter",
+    "subclasses": {
+      "void": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      },
+      "solar": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      },
+      "arc": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  {
+    "character": "Titan",
+    "subclasses": {
+      "void": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      },
+      "solar": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      },
+      "arc": {
+        "name": "",
+        "description": "",
+        "element": "",
+        "grenade": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "movement": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "super": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "melee": {
+          "name": "",
+          "description": "",
+          "modifiers": {
+            "first": {
+              "name": "",
+              "description": ""
+            },
+            "second": {
+              "name": "",
+              "description": ""
+            },
+            "third": {
+              "name": "",
+              "description": ""
+            }
+          }
+        },
+        "class": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "ability": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "attributes": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        },
+        "abilityTwo": {
+          "first": {
+            "name": "",
+            "description": ""
+          },
+          "second": {
+            "name": "",
+            "description": ""
+          },
+          "third": {
+            "name": "",
+            "description": ""
+          }
+        }
+      }
+    }
+  }
+]
