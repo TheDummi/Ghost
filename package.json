@@ -4,7 +4,7 @@
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
-		"start": "tsc && npm start"
+		"start": "tsc && node ."
 	},
 	"keywords": [],
 	"author": "",
